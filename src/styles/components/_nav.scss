@@ -1,9 +1,6 @@
 @import "../_variables.scss";
 
 .header {
-  position: fixed;
-  top: 0;
-  left: 0;
   width: 100%;
   background: $color-primary;
   padding: 20px 10%;
@@ -31,7 +28,6 @@
 }
 
 @include respond-to(sm) {
-
   .navbar a {
     margin-left: 0px;
   }
